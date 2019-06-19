@@ -1,0 +1,86 @@
+.hero {
+  width: 100%;
+}
+.hero-text p {
+  font-family: "Mali", cursive;
+  line-height: 1.9rem;
+}
+.body h1 {
+  font-weight: 600;
+}
+.occupation {
+  background: -webkit-linear-gradient(#d24d88, #953e78);
+  font-weight: 600;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.works p {
+  font-family: "Mali", cursive;
+  line-height: 0.8rem;
+}
+.works img {
+  width: 100%;
+  margin-top: 20px;
+}
+footer {
+  height: 35px;
+  background-color: #032f3e;
+  color: #f8f9fb;
+  text-align: center;
+}
+.footer {
+  color: #e25555;
+}
+.footer-text {
+  margin-bottom: 0px;
+}
+.fab {
+  width: 100%;
+  margin-top: 30px;
+}
+.features {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.works h4 {
+  text-transform: capitalize;
+}
+.fa-linkedin-in {
+  color: #0077b5;
+}
+.fa-twitter {
+  color: #00acee;
+}
+.fa-codepen,
+.fa-github {
+  color: black;
+}
+.img-hover-zoom {
+  overflow: hidden;
+}
+.img-hover-zoom img {
+  transition: transform 0.5s ease;
+}
+.img-hover-zoom:hover img {
+  transform: scale(1.5);
+}
+@media screen and (max-width: 420px) {
+  .fab {
+    display: inline !important;
+    font-size: 3rem !important;
+    padding: 0 10px;
+  }
+  .social-media {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (min-width: 421px) and (max-width: 768px) {
+  .fab {
+    display: inline !important;
+    font-size: 5rem !important;
+    padding: 0px 20px;
+  }
+  .social-media {
+    margin: 20px;
+  }
+}
